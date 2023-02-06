@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    background-image: url(../assets/bg.png);
+}
+
+/* header--starting */
+.container{
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    margin: 10px 40px 0px;
+}
+.header-left .lists{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+}
+.lists{
+    list-style: none;
+}
+.lists a{
+    text-decoration: none;
+}
+.header-right .btn1{
+    padding:5px 25px 5px;
+    background-color: #b90ec5;
+    border:none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+/* -----------header end-------- */
+
+
+
+/* main hero section ----contents-----etc----- */
+.btn2{
+    background-color: #b90ec5;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
+    text-align: center;
+    gap:30px;
+    /* height:100% */
+    margin-top: 140px;
+}
+.container2 h1{
+    font-size: 60px;
+    font-weight: 700;
+}
